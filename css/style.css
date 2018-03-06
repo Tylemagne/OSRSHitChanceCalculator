@@ -1,0 +1,12 @@
+body {
+  color: white;
+  font-size: 18px;
+  background-color: rgb(24, 20, 18);
+}
+input {
+  font-size: 16px;
+}
+#accuracy {
+  color: #66ff33;
+  font-size: 24px;
+}

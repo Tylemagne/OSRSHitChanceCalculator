@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>OSRS Realtime Hit Chance Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <form id="main" onChange="run()" onLoad="run()">
+  Piety:
+  <input type="checkbox" id="piety">
+  <br> Slayer helm:
+  <input type="checkbox" id="helm">
+  <br> Attack level:
+  <br>
+  <input type="number" name="al" id="al" value="1">
+  <br> Bonus:
+  <br>
+  <input type="number" name="ab" id="ab" value="0">
+  <br> Defense level:<br>
+  <input type="number" name="dl" id="dl" value="1">
+  <br> Bonus:
+  <br>
+  <input type="number" name="db" id="db" value="0">
+  <br>
+</form>
+<br>
+<span id="accuracy">hit chance: 50.00%</span>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
